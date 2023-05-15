@@ -16,27 +16,14 @@ https://user-images.githubusercontent.com/127037666/236716336-17b5f97c-dcf0-4fd7
 ![Fs61B9GaMAMr73E](https://user-images.githubusercontent.com/127037666/236717220-2fcdcfa8-d95c-4248-aba1-72704dc5827e.png)
 -->
 
-2. ダウンロードしたZipフォルダを展開してください。[PersonalAssistant](PersonalAssistant-v1.1.1)を実行したい場合は以下の3、4の項目は飛ばして大丈夫です。[nurse-robo](nurse-robo-v1.1.0)を実行したい場合は以下の3.4.の項目をしてください。
-
-3. ![nurse-robo-v.1.1.0](nurse-robo-v1.1.0/nurse-robo-v1.1.0.exe)をクリックし、ページの右の方にあるDownloadボタンをクリックしてください。
-<!--
-<img src="https://user-images.githubusercontent.com/127037666/236718356-e58cba07-6744-4905-bf3d-66036992cd4e.jpg" width="75%" style="border: 10px solid #hhh;">
-![Fs654HkaIAE3sna](https://user-images.githubusercontent.com/127037666/236718356-e58cba07-6744-4905-bf3d-66036992cd4e.jpg)
-<img src="画像のURL" alt="画像の説明" style="border: 1px solid #ccc;">
-![Fs654HkaIAE3sna](https://user-images.githubusercontent.com/127037666/236718356-e58cba07-6744-4905-bf3d-66036992cd4e.jpg)
--->
-
-4. 既に展開したフォルダのnurse-robo-v1.1.0.exeに上書き保存してください。
-<!-- 
-<img src="https://user-images.githubusercontent.com/127037666/236718257-b310d404-3e63-4fc4-bb52-2620e1f59674.png" width="75%" style="border: 10px solid #hhh;">
--->
+2. ダウンロードしたZipフォルダを展開してください。
 
 ## セッティング方法
 1. [VOICEVOX](https://voicevox.hiroshiba.jp)をダウンロード・起動してください。この[サイト](https://sosakubiyori.com/voicevox-introduction/)に沿って、GPUがある方は「GPUモードに切り替える」まで、そうでない方は「初回起動時の確認」まで設定して下さい。
 
 2. OpenAIのAPIキーを用意してください。まだ持ってない方はこの[サイト](https://laboratory.kazuuu.net/how-to-get-an-openai-api-key/)を参考に取得できます。
 
-3. PersonalAssistant-v1.1.1.exeまたはnurse-robo-v1.1.0.exeのうち実行したい方をダブルクリックしてください。警告が出ますが「詳細情報」から実行して、数十秒待つとアプリが立ち上がります。（初回だけ起動に時間がかかります）
+3. PersonalAssistant-v1.1.1.exeをダブルクリックしてください。警告が出ますが「詳細情報」から実行して、数十秒待つとアプリが立ち上がります。（初回だけ起動に時間がかかります）
 
 4. アプリの右下の入力ボックスにAPIキーをコピペしてEnterを入力するとAPIキーが有効か否かを認証します。
 <!--
@@ -158,13 +145,12 @@ https://user-images.githubusercontent.com/127037666/236716336-17b5f97c-dcf0-4fd7
 | 猫使ビィ          | おちつき | 59  |
 | 猫使ビィ          | 人見知り | 60  |
 
-### 立ち絵差し替え（PersonalAssistantのみ）
+### 立ち絵差し替え
 ```エクスプローラーで操作```
 
 > エクスプローラーで[雨晴はう立ち絵ver1.20_n.png](PersonalAssistant-v1.1.1/resources/雨晴はう立ち絵ver1.20_n.png)と[雨晴はう立ち絵ver1.20_u.png](PersonalAssistant-v1.1.1/resources/雨晴はう立ち絵ver1.20_u.png)のファイル名は変更せずに、ファイルの中身だけ差し替えてください。その後にアプリを起動すると立ち絵が更新されます。ちなみに、縦長の画像のほうが見切れないのでおすすめで、黒色(RGB値が0,0,0)のピクセルが透過されるので、背景は黒色にするのがおすすめです。また、[雨晴はう立ち絵ver1.20_n.png](PersonalAssistant-v1.1.1/resources/雨晴はう立ち絵ver1.20_n.png)を口を閉じている立ち絵に、[雨晴はう立ち絵ver1.20_u.png](PersonalAssistant-v1.1.1/resources/雨晴はう立ち絵ver1.20_u.png)を口を開けている立ち絵にすると口パクさせられます。
 
 
 ## ルール
-- nurse-roboを利用した上で「発信する」場合、[ナースロボタイプTの利用規約](https://krnr.top/rules)を遵守してください。
 - PersonalAssistantを利用した上で「発信する」場合、その時に使用している立ち絵と[声](https://voicevox.hiroshiba.jp)の利用規約を順守してください。
 - ソースコードを利用・編集・再配布する際に、私への連絡・クレジット表記は不要です。
